@@ -1,0 +1,79 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Sphinx Build Jupyter Notebooks"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\u001b[01mRunning Sphinx v1.7.5\u001b[39;49;00m\n",
+      "making output directory...\n",
+      "\u001b[01mloading pickled environment... \u001b[39;49;00mnot yet created\n",
+      "\u001b[01mbuilding [mo]: \u001b[39;49;00mtargets for 0 po files that are out of date\n",
+      "\u001b[01mbuilding [html]\u001b[39;49;00m: targets for 7 source files that are out of date\n",
+      "\u001b[01mupdating environment: \u001b[39;49;00m7 added, 0 changed, 0 removed\n",
+      "\u001b[01mreading sources... \u001b[39;49;00m[100%] \u001b[35mstix1dot2\u001b[39;49;00m                                             \n",
+      "\u001b[01mlooking for now-outdated files... \u001b[39;49;00mnone found\n",
+      "\u001b[01mpickling environment... \u001b[39;49;00mdone\n",
+      "\u001b[01mchecking consistency... \u001b[39;49;00m\u001b[31;01m/Users/ddye/Projects/demo_sphinx_docs_from_jupyter/source/.ipynb_checkpoints/Plotly_Demo-checkpoint.ipynb: WARNING: document isn't included in any toctree\u001b[39;49;00m\n",
+      "\u001b[31;01m/Users/ddye/Projects/demo_sphinx_docs_from_jupyter/source/.ipynb_checkpoints/Sphinx_Build-checkpoint.ipynb: WARNING: document isn't included in any toctree\u001b[39;49;00m\n",
+      "\u001b[31;01m/Users/ddye/Projects/demo_sphinx_docs_from_jupyter/source/.ipynb_checkpoints/stix1dot2-checkpoint.ipynb: WARNING: document isn't included in any toctree\u001b[39;49;00m\n",
+      "done\n",
+      "\u001b[01mpreparing documents... \u001b[39;49;00mdone\n",
+      "\u001b[01mwriting output... \u001b[39;49;00m[100%] \u001b[32mstix1dot2\u001b[39;49;00m                                              \n",
+      "\u001b[01mgenerating indices...\u001b[39;49;00m genindex\n",
+      "\u001b[01mwriting additional pages...\u001b[39;49;00m search\n",
+      "\u001b[01mcopying static files... \u001b[39;49;00mdone\n",
+      "\u001b[01mcopying extra files... \u001b[39;49;00mdone\n",
+      "\u001b[01mdumping search index in English (code: en) ... \u001b[39;49;00mdone\n",
+      "\u001b[01mdumping object inventory... \u001b[39;49;00mdone\n",
+      "\u001b[01mbuild succeeded, 3 warnings.\u001b[39;49;00m\n",
+      "\n",
+      "The HTML pages are in ../html_classic.\n"
+     ]
+    }
+   ],
+   "source": [
+    "!sphinx-build -b html ../source ../docs"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:stix1.2]",
+   "language": "python",
+   "name": "conda-env-stix1.2-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
